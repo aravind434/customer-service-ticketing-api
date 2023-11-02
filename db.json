@@ -1,0 +1,37 @@
+{
+    "users":[
+        {
+            "username":"aravind",
+            "password":"143",
+            "role":"manager",
+            "id":1
+        },
+        {
+            "username":"srinath",
+            "password":"143",
+            "role":"customer",
+            "id":3
+        },
+        {
+            "username":"prashanth",
+            "password":"434",
+            "role":"employee",
+            "id":2
+        },
+        {
+            "username":"vasu",
+            "password":"143",
+            "role":"employee",
+            "id":4
+        },
+        {
+            "username":"charan",
+            "password":"143",
+            "role":"customer",
+            "id":5
+        }
+    ],
+    "tickets":[
+
+    ]
+}
