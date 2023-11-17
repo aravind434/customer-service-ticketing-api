@@ -1,0 +1,9 @@
+==>Download/clone it and install json server by run the command is npm i json-server at this file directory.
+==>If u would like to use nodemon to run the server in easiest way(npm start) need to install nodemon.
+
+    => Steps to install Nodemon and setup in package.json of DB.
+        Install Nodemon to run the server automatically when db data changed...
+        To install ==> npm i -g nodemon (if install npm i nodemon --save locally is  not working, so better to install globally).
+        To run server ==> nodemon filename with extension(.js) and it will restart the server automatically when db data changed...
+        -> set the nodemon to a script to start with simple command is 
+        copy the script snippet from package.json dependencies and paste it inside the db package.json remove other things keep only the start property from that file and give the value to the start property is "start":"nodemon filename with extension" and now run the command npm start simply  at the db directory and it automatically restart on db data change also...
